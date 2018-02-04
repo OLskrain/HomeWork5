@@ -2,7 +2,7 @@
  * Home work 5.
  * @author Ievlev Andrey.
  * @version Feb 4, 2018.
- * @Link
+ * @Link https://github.com/OLskrain/HomeWork5.git
  */
 
 public class HomeWork5 {
@@ -25,7 +25,7 @@ public class HomeWork5 {
         //Task2
         MyRunnable2 myRunnable2 = new MyRunnable2();
         myRunnable2.m2(newarray(),h,size);
-        System.out.println("=============================");
-        System.out.printf("Разница во времени в %.2f раза \n",(float)myRunnable.getY()/myRunnable2.getX());
+        System.out.println("===============================================");
+        System.out.printf("Разница во времени в %.2f раза! \n",(float)myRunnable.getY()/myRunnable2.getX());
         }
 }
