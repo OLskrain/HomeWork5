@@ -8,6 +8,7 @@
 public class HomeWork5 {
     static final int size = 10000000;
     static final int h = size / 2;
+
     static float[] newarray(){
         float[] arr = new float[size];
         for (int i = 0; i < arr.length; i++) {

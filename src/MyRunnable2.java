@@ -1,5 +1,6 @@
 public class MyRunnable2  {
     private long x;
+
     public void m2(float[] arr, int h, int size) {
         long b = System.currentTimeMillis();
         float[]arr2 = new float[size];
